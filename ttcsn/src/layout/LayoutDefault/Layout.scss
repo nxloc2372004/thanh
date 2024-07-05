@@ -1,0 +1,46 @@
+.header{
+    border-bottom: 1px solid #ddd;
+    background: #008cff;
+    display: flex;
+    &__logo{
+        width: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        transition: all 0.2s;
+        img{
+           height: 60px;
+        }
+        &--collapsed{
+            width: 80px;
+            transition: all 0.2s;
+        }
+    }
+    &__nav{
+        color: #ddd;
+        padding: 10px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        flex: 1;
+        &-left{
+            font-size: 20px;
+        }
+    
+    }
+    &__collapse{
+        cursor: pointer;
+        
+    }
+
+}
+
+.layout-main{
+    height: 800px;
+    .content{
+        padding: 20px;
+    }
+}
+:where(.css-dev-only-do-not-override-qgg3xn) a{
+    color: #fff;
+}

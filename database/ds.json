@@ -1,0 +1,167 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin",
+      "password": "1",
+      "token": "Mmklkxzn123",
+      "role": "admin"
+    },
+    {
+      "name": "Trần Dương ",
+      "phone": "123123213",
+      "email": "staff1@gmail.com",
+      "password": "123456",
+      "role": "staff",
+      "token": "Ta5TMq9QCTedWCWdP5uN",
+      "id": 20
+    },
+    {
+      "name": "Trần Dương ",
+      "phone": "07777777",
+      "email": "staff2@gmail.com",
+      "password": "1",
+      "role": "staff",
+      "token": "EvCVGGJQkfL9r3nDUB9g",
+      "id": 21
+    }
+  ],
+  "infocustomer": [
+    {
+      "name": "1",
+      "phone": "1",
+      "email": "1",
+      "image": "https://robohash.org/hicveldicta.png",
+      "gender": "Nữ",
+      "birth": "2023-12-04T11:10:00.611Z",
+      "address": "Bà Rịa - Vũng Tàu",
+      "cccd": "1",
+      "job": "1",
+      "religion": "1",
+      "hometown": "Hưng Yên",
+      "note": "2",
+      "accountid": 20,
+      "id": 13
+    },
+    {
+      "name": "Trần Dương ",
+      "phone": "07777777",
+      "email": "staff2@gmail.com",
+      "image": "https://robohash.org/hicveldicta.png",
+      "gender": "",
+      "birth": "",
+      "address": "",
+      "cccd": "",
+      "job": "",
+      "religion": "",
+      "hometown": "",
+      "note": "",
+      "accountid": 21,
+      "id": 14
+    }
+  ],
+  "project": [
+    {
+      "name": "BBB",
+      "date": "2023-12-12T17:34:21.023Z",
+      "description": "sad",
+      "contract": "https://firebasestorage.googleapis.com/v0/b/imageuploaddb-2d968.appspot.com/o/project%2F554d4186-0300-452b-95bb-b4dc52ff5f04?alt=media&token=0e1d9518-458e-4f4a-b235-4ad9077597ec",
+      "investor": "1",
+      "staff": [
+        14
+      ],
+      "id": 2
+    },
+    {
+      "name": "CCC",
+      "date": "2023-12-05T14:18:15.918Z",
+      "description": "ádsa",
+      "contract": "https://firebasestorage.googleapis.com/v0/b/imageuploaddb-2d968.appspot.com/o/project%2F5592d52d-4015-407f-a796-947070875ad8?alt=media&token=f88cb1fd-1456-4c78-93ad-5e92f39800ad",
+      "investor": "2",
+      "staff": [
+        13,
+        14
+      ],
+      "id": 3
+    }
+  ],
+  "updateproject": [
+    {
+      "id": 1,
+      "description": "123123",
+      "idproject": "1",
+      "name": "Trần Dương ",
+      "time": "1/2/2023"
+    },
+    {
+      "id": 2,
+      "description": "123123...................................................",
+      "idproject": "1",
+      "name": "Trần Dương ",
+      "time": "1/2/2023"
+    },
+    {
+      "description": "sdfdsfada",
+      "name": "1",
+      "time": "2023-12-21T17:32:04.519Z",
+      "idproject": 1,
+      "id": 3
+    },
+    {
+      "description": "đáklá asd adasd ád",
+      "name": "1",
+      "time": "2023-12-21T17:32:04.894Z",
+      "idproject": 1,
+      "id": 4
+    },
+    {
+      "description": "asdas ",
+      "name": "1",
+      "time": "2023-12-21T17:32:15.961Z",
+      "idproject": 1,
+      "id": 5
+    },
+    {
+      "description": "adsd",
+      "name": "Trần Dương ",
+      "time": "2023-12-21T17:36:35.589Z",
+      "idproject": 2,
+      "id": 6
+    },
+    {
+      "description": "dsad",
+      "name": "1",
+      "time": "2023-12-21T17:36:50.720Z",
+      "idproject": 2,
+      "id": 7
+    },
+    {
+      "description": "sdaas",
+      "name": "1",
+      "time": "2023-12-21T17:45:18.623Z",
+      "idproject": 1,
+      "id": 8
+    },
+    {
+      "description": "cajpap 1 ",
+      "name": "1",
+      "time": "2023-12-22T14:19:18.147Z",
+      "idproject": 3,
+      "id": 9
+    },
+    {
+      "description": "123123",
+      "name": "1",
+      "time": "2023-12-22T14:19:25.467Z",
+      "idproject": 3,
+      "id": 10
+    },
+    {
+      "description": "sdfdfds",
+      "name": "Trần Dương ",
+      "time": "2023-12-22T14:20:22.191Z",
+      "idproject": 3,
+      "id": 11
+    }
+  ]
+}

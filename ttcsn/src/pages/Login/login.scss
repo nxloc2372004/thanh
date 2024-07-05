@@ -1,0 +1,65 @@
+.form{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 740px;
+    
+    background-image: url(../../../../image/1.jpg);
+    background-size: cover;
+    &::after {
+        content: ""; // Tạo một phần tử giả với nội dung trống
+        position: absolute; // Vị trí tuyệt đối so với lớp cha
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.5); // Màu đen mờ có độ trong suốt là 50%
+        z-index: 0; // Đảm bảo lớp mờ nằm trên lớp nền
+    }
+    &__header{
+        margin: 0px;
+        margin-bottom: 15px;
+        text-align: center;
+    }
+    &__login{
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+        background-color: #fff;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        height: 300px;
+        width: 250px;
+        padding: 15px 30px;
+        z-index: 2;
+    }
+    &__input{
+        width: 96%;
+        height: 42px;
+        border: 1px solid #ddd;
+        border-radius: 8px;
+        margin-bottom: 10px;
+        box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    }
+    &__title{
+        margin: 0px;
+        margin-bottom: 5px;
+        font-size: 16px;
+    }
+    &__button{
+        margin-bottom: 10px;
+        &--submit{
+            width: 98%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+            height: 35px;
+            background-color: #008cff;
+            margin-top: 5px;
+            box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+            color: #ddd;
+        }
+    }
+    &__footer{
+        display: flex;
+        flex-direction: column;
+    }
+    
+}
